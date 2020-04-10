@@ -8,7 +8,7 @@ class Customer
     @@all << self
   end
 
-  def new_meal(waiter, tota, tip=0)
+  def new_meal(waiter, tota, tip=0)#Creating the Has-Many-Through relationship
     Meal.new(waiter, self, total, tip)
   end
 
