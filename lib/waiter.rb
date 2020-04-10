@@ -27,6 +27,10 @@ class Waiter
     best_tipped_meal.customer
   end
 
+  def most_frequent
+    most_frequent_customer =
+  end
+
   def self.all
     @@all
   end
