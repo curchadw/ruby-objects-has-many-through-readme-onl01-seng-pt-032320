@@ -14,7 +14,7 @@ class Customer
 
   def meals
     Meal.all.select do |meal| #seeing the meals they have eaten at the resturant
-      meal.customer = self
+      meal.customer == self
     end
   end
 
