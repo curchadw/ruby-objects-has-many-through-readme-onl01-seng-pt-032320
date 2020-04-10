@@ -13,6 +13,8 @@ class Waiter
     Meal.new(self, customer, total, tip)
   end
 
+  d
+
   def self.all
     @@all
   end
